@@ -23,4 +23,5 @@ jobs:
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        projectKey: 24768_sonar_qube_training
+      with:
+        projectKey: '24768_sonar_qube_training' # Define the project key here
