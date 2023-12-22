@@ -12,7 +12,7 @@ on:
 name: Main Workflow
 jobs:
   sonarqube:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
       with:
