@@ -1,0 +1,2 @@
+This is the new type
+adding line 2
