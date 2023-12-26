@@ -6,7 +6,7 @@ on:
       - develop
       - 'releases/**'
   pull_request:
-      types: [opened, synchronize, reopened]
+      #types: [opened, synchronize, reopened]
 
 name: Main Workflow
 jobs:
