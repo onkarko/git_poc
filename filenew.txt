@@ -1,2 +1,4 @@
 This is the new type
+adding a file to see the changes line 2
 adding line 2
+adding line 4
