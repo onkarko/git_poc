@@ -1,2 +1,6 @@
+adding line 1
 This is the new type
 adding line 2
+adding line 2
+adding line 3
+adding line6
