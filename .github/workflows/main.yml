@@ -17,6 +17,11 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '11'  # Adjust the version according to your project requirements
       - name: SonarQube Scan
         uses: sonarsource/sonarqube-scan-action@master
         env:
