@@ -22,5 +22,5 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        with:
-          args: -Dsonar.java.additionalParameters=--add-opens=java.base/java.lang=ALL-UNNAMED
+      - name: Debug Output
+        run: cat $HOME/.sonar/cache/*/sonar-scanner*/sonar-scanner-*/conf/sonar-scanner.properties
